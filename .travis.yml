@@ -1,4 +1,4 @@
-language: c
+language: node_js
 script: cat bacon.txt
 
 before_install:
