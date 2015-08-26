@@ -1,5 +1,6 @@
 language: node_js
 script: curl -s https://gist.githubusercontent.com/joshk/928d176c2de247e75dc3/raw/debug.sh | bash
+sudo: false
 
 before_install:
 - openssl aes-256-cbc -K $encrypted_0a6446eb3ae3_key -iv $encrypted_0a6446eb3ae3_iv
